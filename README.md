@@ -39,11 +39,10 @@ This end-to-end approach demonstrates practical skills in querying big data, sta
 
 - <b>Windows 10</b> 
 
-<h2>Program walk-through:</h2>
+<h2>Project links</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+[Business Requirements Report](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>)
+
 <br />
 <br />
 Select the disk:  <br/>
