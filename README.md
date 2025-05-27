@@ -32,7 +32,7 @@ This end-to-end approach demonstrates practical skills in querying big data, sta
 - <b>POWER BI</b>
 - <b>GOOGLE DOC</b>
 - <b>BIGQUERY</b>
-- <b></b>
+- <b>Tableau</b>
 - <b></b>
 
 <h2>Environments Used </h2>
@@ -41,33 +41,12 @@ This end-to-end approach demonstrates practical skills in querying big data, sta
 
 <h2>Project links</h2>
 
-[Business Requirements Report](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>)
+- [Business Requirements Report](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>)
+- [Executive Summary/ Findings Report](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing)
+- [Dashboards or Mockups](https://docs.google.com/document/d/1U3Y57BU-dQQ7RoVUTQo1iWCJrp_OVAOnjdYzysYVhSw/edit?usp=sharing)
+- [Recommendations based on Analysis](https://docs.google.com/document/d/1mJXflolveBgeMDry3-hPVsG8MBanYQejSDPy4Xsy0z8/edit?usp=sharing)
 
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
