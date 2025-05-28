@@ -39,7 +39,7 @@ This end-to-end approach demonstrates practical skills in querying big data, sta
 
 - <b>Windows 10</b> 
 
-<h2>Project links</h2>
+<h2>Amazon UK Sales Analysis Project links</h2>
 
 - [Business Requirements Report](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>)
 - [Executive Summary/ Findings Report](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing)
