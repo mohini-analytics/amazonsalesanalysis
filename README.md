@@ -196,12 +196,31 @@ Acceptance Criteria
 - Price bands with lower average ratings are clearly identifiable
 - Results update dynamically based on filters
 
+Implementation Status: Completed  
+Delivery Artefact: Power BI – Price Sensitivity Dashboard
+
+DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-2/price-sensitivity-dashboard.png)
+
+The analysis shows a clear decline in average customer rating as prices increase, with the high price band exhibiting a significant drop in satisfaction despite comparable demand levels. This suggests a potential value perception gap at higher price points and highlights an opportunity to review pricing, bundling, or positioning strategies.
+
+User Story 2.2 — Price vs Review Volume
+
+As a Pricing Analyst, I want to analyse how customer review volume varies across price bands, so that I can identify price ranges where higher prices may be limiting customer adoption or confidence.
+
+Acceptance Criteria
+
+- Products are grouped into defined price bands
+- Total review volume is visible per price band
+- Review volume differences across price bands are clearly comparable
+- Price bands with significantly lower review engagement are identifiable
+- Visual supports comparison alongside pricing decisions
 
 
+Implementation Status: Completed  
+Delivery Artefact: Power BI – Price vs Review Volume Dashboard
 
 
-
-
+DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-2/priceband-review-volume.png)
 
 
 
