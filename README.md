@@ -126,6 +126,28 @@ Delivery Artefact: Power BI – Category Performance Dashboard
 
 <b>
 
+<b>
+User Story 1.2 — Review Volume Risk Identification
+
+As a Category Manager, I want to identify product categories with low review volume relative to demand, so that I can flag adoption risks and prioritise feedback, promotion, or vendor follow-ups.
+
+
+Acceptance Criteria
+
+- Dashboard displays category-level total demand and total review count
+- Categories with low review volume are clearly highlighted
+- Categories are sortable by total demand and review count
+- Results update dynamically based on applied filters (e.g. price band)
+
+
+Implementation Status: Completed  
+Delivery Artefact: Power BI – Review Volume Risk Dashboard
+
+(Low review volume categories are highlighted using a DAX-driven colour logic to visually surface adoption risk.)
+
+Insight Note: Based on the defined threshold (overall average review volume), no categories were flagged as low review volume. This indicates generally healthy customer engagement across product categories within the analysed dataset.
+
+[Open full-size dashboard screenshot](screenshots/use-case-1/review-volume-risk-dashboard.png)
 
 <b>USE CASE 2 — Price Sensitivity & Customer Perception<b>
 
