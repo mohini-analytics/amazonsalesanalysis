@@ -41,20 +41,15 @@ The following artefacts simulate real-world Business Analyst deliverables used t
 - [**Business Requirements Report (BRD)**](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>) : 
   Documents the business context, objectives, scope, assumptions, and high-level requirements that guided the analysis.
 
-- [**Executive Summary & Findings Report** ](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing) : 
+- [**Executive Summary & Key Findings** ](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing) : 
   Summarises key insights, risks, and recommendations in a business-facing format suitable for senior stakeholders.
 
 - [**Dashboards & Visual Mockups**](https://docs.google.com/document/d/1U3Y57BU-dQQ7RoVUTQo1iWCJrp_OVAOnjdYzysYVhSw/edit?usp=sharing) : 
-  Interactive Power BI dashboards designed to answer specific business questions defined through user stories and acceptance criteria.
+  Interactive Power BI dashboards are designed to answer specific business questions defined through user stories and acceptance criteria.
 
 - [**Recommendations & Next Steps**](https://docs.google.com/document/d/1mJXflolveBgeMDry3-hPVsG8MBanYQejSDPy4Xsy0z8/edit?usp=sharing) : 
   Actionable recommendations derived from the analysis, outlining potential quality, pricing, and category-level interventions.
 
-
-- [Business Requirements Report](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>)
-- [Executive Summary/ Findings Report](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing)
-- [Dashboards or Mockups](https://docs.google.com/document/d/1U3Y57BU-dQQ7RoVUTQo1iWCJrp_OVAOnjdYzysYVhSw/edit?usp=sharing)
-- [Recommendations based on Analysis](https://docs.google.com/document/d/1mJXflolveBgeMDry3-hPVsG8MBanYQejSDPy4Xsy0z8/edit?usp=sharing)
 
 
 <h2>Business Problem Statement & Use Cases</h2>
