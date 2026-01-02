@@ -34,7 +34,22 @@ This end-to-end project demonstrates practical capability in big data querying, 
 
 - <b>Windows 10</b> 
 
-<h2>Amazon UK Sales Analysis Project links</h2>
+## Project Artefacts & Documentation
+
+The following artefacts simulate real-world Business Analyst deliverables used to support stakeholder alignment, decision-making, and implementation.
+
+- [**Business Requirements Report (BRD)**](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>) : 
+  Documents the business context, objectives, scope, assumptions, and high-level requirements that guided the analysis.
+
+- [**Executive Summary & Findings Report** ](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing) : 
+  Summarises key insights, risks, and recommendations in a business-facing format suitable for senior stakeholders.
+
+- [**Dashboards & Visual Mockups**](https://docs.google.com/document/d/1U3Y57BU-dQQ7RoVUTQo1iWCJrp_OVAOnjdYzysYVhSw/edit?usp=sharing) : 
+  Interactive Power BI dashboards designed to answer specific business questions defined through user stories and acceptance criteria.
+
+- [**Recommendations & Next Steps**](https://docs.google.com/document/d/1mJXflolveBgeMDry3-hPVsG8MBanYQejSDPy4Xsy0z8/edit?usp=sharing) : 
+  Actionable recommendations derived from the analysis, outlining potential quality, pricing, and category-level interventions.
+
 
 - [Business Requirements Report](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>)
 - [Executive Summary/ Findings Report](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing)
@@ -288,6 +303,33 @@ Delivery Artefact: Power BI – Category Risk Dashboard
 
 DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-3/category-risk-dashboard.png)
 
+
+
+
+## Assumptions & Limitations
+
+### Assumptions
+
+- Products with an average customer rating below 3.5 were considered underperforming, based on common e-commerce benchmarks where ratings below this threshold typically indicate customer dissatisfaction.
+- Overall average review volume was used as a benchmark to identify low customer engagement, acknowledging that review behaviour can vary by product category.
+- Price bands (Low / Medium / High) were defined using fixed price thresholds to simplify comparative analysis and support pricing decisions.
+- Review count and recent purchase indicators were used as proxies for demand and customer engagement due to the absence of direct sales revenue data.
+
+### Limitations
+
+- The dataset does not include actual sales or revenue figures, so demand analysis is based on inferred engagement metrics.
+- Customer ratings and reviews are user-generated and may be influenced by individual bias or extreme experiences.
+- Category-level analysis may mask performance variation at the individual product level.
+- The analysis represents a snapshot in time and does not account for seasonality or long-term trends.
+
+
+
+## Key Takeaways
+
+- Category-level analysis highlighted that certain high-demand categories underperform on customer ratings, indicating opportunities for targeted quality improvements and supplier review.
+- Pricing analysis revealed a clear decline in customer satisfaction within higher price bands despite comparable demand levels, suggesting a potential value perception gap at higher price points.
+- Review volume analysis showed generally healthy customer engagement across categories, with no products meeting combined high-risk thresholds under default business rules.
+- Risk dashboards demonstrated stable quality and engagement signals overall, enabling teams to focus on selective interventions rather than broad corrective actions.
 
 
 
