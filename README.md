@@ -104,6 +104,29 @@ Without this insight, teams risk:
 - Leadership gains visibility into where investment or intervention will deliver the highest ROI
 - Data-backed discussions replace intuition-driven decisions
 
+<b>
+
+User Story 1.1 — Category Performance Prioritisation
+
+As a Category Manager, I want to view product categories ranked by total demand and average customer rating, So that I can prioritise categories for quality improvement and supplier intervention.
+
+
+Acceptance Criteria
+
+- Dashboard displays category-level total demand, average rating, and total review count
+- Categories are ranked by total demand (highest to lowest)
+- Categories with below-average ratings are clearly highlighted
+- Results update dynamically based on applied filters
+
+Implementation Status: COMPLETED
+Delivery Artefact: Power BI – Category Performance Dashboard
+### Dashboard Evidence
+
+[Open full-size dashboard screenshot](screenshots/use-case-1/category-performance-dashboard.png)
+
+<b>
+
+
 <b>USE CASE 2 — Price Sensitivity & Customer Perception<b>
 
 Key Users- Pricing Team, Commercial Strategy Team
