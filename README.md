@@ -28,7 +28,7 @@ This end-to-end project demonstrates practical capability in big data querying, 
 - <b>POWER BI</b>
 - <b>GOOGLE DOC</b>
 - <b>BIGQUERY</b>
-- <b>Tableau</b>
+- <b>TABLEAU</b>
 - <b>MICROSOFT VISIO</b>
 
 <h2>Environments Used </h2>
