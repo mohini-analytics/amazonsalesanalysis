@@ -1,5 +1,3 @@
-
-
 <h1>Amazon Sales Analysis</h1>
 
 
