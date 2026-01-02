@@ -1,5 +1,5 @@
 -- Potential Business Questions:
-
+-- Assumption- Amazon dataset does not provide revenue or units sold. “boughtInLastMonth” is used as a proxy for demand/sales.
 -- 1) How many total products are listed?
 
 SELECT categoryName, COUNT(*) AS total_products
