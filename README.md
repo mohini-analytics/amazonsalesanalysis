@@ -28,7 +28,6 @@ This end-to-end project demonstrates practical capability in big data querying, 
 - <b>POWER BI</b>
 - <b>GOOGLE DOC</b>
 - <b>BIGQUERY</b>
-- <b>TABLEAU</b>
 - <b>MICROSOFT VISIO</b>
 
 <h2>Environments Used </h2>
@@ -51,14 +50,15 @@ Provide actionable, data-driven insights to improve product performance, pricing
 
 <b>Business Context<b>
 
-Amazon UK operates across thousands of product categories with varying price points, customer demand, and quality perception.
-Business teams such as Category Management, Pricing, and Operations require reliable insights to answer questions like:
+Amazon UK operates across thousands of product categories with varying price points, customer demand, and quality perception. Business teams such as Category Management, Pricing, and Operations require reliable insights to answer questions like:
 
 - Which categories contribute the most revenue but underperform on customer satisfaction?
 - How does product pricing influence customer reviews and ratings?
 - Where should improvement, promotion, or quality interventions be prioritised?
 
+
 Without structured analytics and dashboards, these decisions rely on fragmented reports and intuition rather than evidence. This project simulates a real-world business analysis engagement, where raw product-level data is transformed into insights that support strategic and operational decisions.
+
 
 <b>Stakeholder / User Role	Responsibility<b>
 
@@ -66,6 +66,7 @@ Without structured analytics and dashboards, these decisions rely on fragmented 
 - Pricing & Commercial Team	- Define pricing strategies and promotions
 - Operations / Quality Teams -	Identify quality risks and improvement areas
 - Senior Management -	Review performance and prioritise investments
+
 
 <b> USE CASE 1 — Category Strategy & Performance Prioritisation <b>
 
@@ -85,6 +86,7 @@ Without this insight, teams risk:
 - Investing in low-impact categories
 - Missing early warning signs of declining customer experience
 
+
 <b>Business Questions<b>
 
 - What are the top product categories by total sales and revenue?
@@ -92,11 +94,13 @@ Without this insight, teams risk:
 - Are there categories with high sales but below-average ratings?
 - Which categories have low review counts, indicating limited customer feedback or adoption risk?
 
+
 <b>Expected Insights<b>
 
 - Identification of high-revenue, low-rating categories that require quality improvement
 - Detection of high-rating but low-review categories with potential for promotion
 - Clear category-level performance comparison to support prioritisation decisions
+
 
 <b>Business Outcome<b>
 
@@ -106,9 +110,11 @@ Without this insight, teams risk:
 
 <b>
 
+
 User Story 1.1 — Category Performance Prioritisation
 
 As a Category Manager, I want to view product categories ranked by total demand and average customer rating, So that I can prioritise categories for quality improvement and supplier intervention.
+
 
 
 Acceptance Criteria
@@ -131,6 +137,7 @@ User Story 1.2 — Review Volume Risk Identification
 As a Category Manager, I want to identify product categories with low review volume relative to demand, so that I can flag adoption risks and prioritise feedback, promotion, or vendor follow-ups.
 
 
+
 Acceptance Criteria
 
 - Dashboard displays category-level total demand and total review count
@@ -150,9 +157,12 @@ DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-1
 
 <b>
 
+
+
 <b>USE CASE 2 — Price Sensitivity & Customer Perception<b>
 
 Key Users- Pricing Team, Commercial Strategy Team
+
 
 <b>Business Problem<b>
 
@@ -163,6 +173,7 @@ The pricing team needs to understand:
 - If certain price bands consistently underperform in customer reviews
 - Where pricing adjustments or promotional strategies may improve customer response
 
+
 <b>Business Questions<b>
 
 - How does the average rating change across different price ranges?
@@ -170,17 +181,21 @@ The pricing team needs to understand:
 - Are there price thresholds where customer satisfaction drops significantly?
 - Which price bands show the best balance of revenue and customer satisfaction?
 
+
 <b>Expected Insights<b>
 
 - Identification of price bands associated with lower ratings
-- Understanding of review volume vs. price relationship
+- Understanding of the review volume vs. price relationship
 - Evidence to support pricing experiments, discounts, or bundling strategies
+
 
 <b>Business Outcome<b>
 
 - Pricing teams can optimise pricing strategies using data rather than assumptions
 - Reduced risk of customer dissatisfaction due to misaligned pricing
 - Improved alignment between price, perceived value, and customer experience
+
+
 
 <b>
 User Story 2.1 — Price Band vs Customer Satisfaction
@@ -196,12 +211,15 @@ Acceptance Criteria
 - Price bands with lower average ratings are clearly identifiable
 - Results update dynamically based on filters
 
+
 Implementation Status: Completed  
 Delivery Artefact: Power BI – Price Sensitivity Dashboard
 
 DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-2/price-sensitivity-dashboard.png)
 
 The analysis shows a clear decline in average customer rating as prices increase, with the high price band exhibiting a significant drop in satisfaction despite comparable demand levels. This suggests a potential value perception gap at higher price points and highlights an opportunity to review pricing, bundling, or positioning strategies.
+
+
 
 User Story 2.2 — Price vs Review Volume
 
@@ -225,18 +243,6 @@ DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-2
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <b>USE CASE 3 — Review & Rating Risk Identification<b>
 Key Users- Operations & Quality Teams
 
@@ -248,6 +254,39 @@ Teams need early indicators to:
 - Identify products with low engagement (few reviews)
 - Prevent reputational and revenue loss
 
+
+
+<b>
+User Story 3.1 — High-Risk Product Identification
+
+As an Operations or Quality Manager, I want to identify products with low customer ratings and low review volume, so that I can proactively flag quality risks and prioritise corrective actions.
+
+
+Acceptance Criteria
+
+- Products with low average ratings are identifiable
+- Products with low review volume are identifiable
+- Products meeting both conditions are clearly flagged as high risk
+- Results can be filtered by category and price band
+- Visual supports early risk detection
+
+
+
+Implementation Status: Completed  
+Delivery Artefact: Power BI – High-Risk Product Dashboard
+
+DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-3/product-risk-dashboard.png)
+
+
+
+User Story 3.2 — Category-Level Risk Identification
+
+As a Category or Operations Lead, I want to identify product categories with below-average ratings and low engagement, so that I can prioritise quality reviews and supplier interventions at a strategic level.
+
+Implementation Status: Completed  
+Delivery Artefact: Power BI – Category Risk Dashboard
+
+DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-3/category-risk-dashboard.png)
 
 
 
