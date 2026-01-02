@@ -120,9 +120,8 @@ Acceptance Criteria
 
 Implementation Status: COMPLETED
 Delivery Artefact: Power BI – Category Performance Dashboard
-### Dashboard Evidence
 
-[Open full-size dashboard screenshot](screenshots/use-case-1/category-performance-dashboard.png)
+DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-1/category-performance-dashboard.png)
 
 <b>
 
@@ -147,7 +146,9 @@ Delivery Artefact: Power BI – Review Volume Risk Dashboard
 
 Insight Note: Based on the defined threshold (overall average review volume), no categories were flagged as low review volume. This indicates generally healthy customer engagement across product categories within the analysed dataset.
 
-[Open full-size dashboard screenshot](screenshots/use-case-1/review-volume-risk-dashboard.png)
+DASHBOARD EVIDENCE: [Open full-size dashboard screenshot](screenshots/use-case-1/review-volume-risk-dashboard.png)
+
+<b>
 
 <b>USE CASE 2 — Price Sensitivity & Customer Perception<b>
 
@@ -180,6 +181,42 @@ The pricing team needs to understand:
 - Pricing teams can optimise pricing strategies using data rather than assumptions
 - Reduced risk of customer dissatisfaction due to misaligned pricing
 - Improved alignment between price, perceived value, and customer experience
+
+<b>
+User Story 2.1 — Price Band vs Customer Satisfaction
+
+As a Pricing Analyst, I want to analyse how customer ratings and review volume vary across price bands, so that I can identify price ranges where customer satisfaction drops or improves.
+
+
+Acceptance Criteria
+
+- Products are grouped into clear price bands
+- Average rating is visible per price band
+- Total reviews and total demand are visible per price band
+- Price bands with lower average ratings are clearly identifiable
+- Results update dynamically based on filters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <b>USE CASE 3 — Review & Rating Risk Identification<b>
 Key Users- Operations & Quality Teams
