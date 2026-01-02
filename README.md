@@ -4,20 +4,18 @@
 
 
 
-<h2>Description</h2>
-This project focuses on extracting business insights from a large real-world product dataset using a combination of cloud-based and statistical tools.
+<h2>OVERVIEW</h2>
 
-- <b>Data was loaded and hosted on Google BigQuery, enabling fast SQL-based exploration and analysis of 600K+ records.</b>
+</b>This project focuses on extracting actionable business insights from a large, real-world Amazon UK product dataset using a combination of cloud-based analytics, statistical techniques, and business intelligence tools.
 
-- <b>SQL was used extensively to clean, filter, and transform the data, uncovering key metrics such as product counts, category trends, pricing patterns, brand performance, and missing data analysis.</b>
+- The dataset (600K+ records) was hosted on Google BigQuery, enabling scalable SQL-based data exploration, cleaning, and transformation. SQL was used extensively to derive key metrics such as product distribution, category trends, pricing patterns, brand performance, and data quality gaps.
+- R was leveraged for deeper statistical analysis and data wrangling using tidyverse and dplyr, with a focus on understanding relationships between price, customer ratings, and review volume.
+- Power BI was used to design interactive dashboards with slicers and drill-down capabilities, allowing stakeholders to explore performance trends and compare categories, brands, and price segments.
+- Google Docs was used to document the analytical approach, SQL logic, visual summaries, and final recommendations, ensuring insights were communicated in a clear, business-facing format.
 
-- <b>R was used for deeper statistical analysis, data wrangling (with dplyr, tidyverse), and to explore relationships between price, ratings, and reviews.</b>
+This end-to-end project demonstrates practical capability in big data querying, statistical analysis, insight generation, and stakeholder-ready reporting.
 
-- <b>Power BI was used to create dynamic dashboards and visual reports, making insights accessible to stakeholders with slicers and drill-downs.</b>
-
-- <b>Google Docs was used to document analysis steps, SQL logic, visual summaries, and final recommendations — providing clear business-facing reports.</b>
-
-This end-to-end approach demonstrates practical skills in querying big data, statistical interpretation, business-focused reporting, and stakeholder-ready storytelling.</b>
+</b>
 <br />
 
 
@@ -28,12 +26,12 @@ This end-to-end approach demonstrates practical skills in querying big data, sta
 
 <h2> Software Used</h2>
 
-- <b>EXCEL</b> 
+- <b>ADVANCED EXCEL</b> 
 - <b>POWER BI</b>
 - <b>GOOGLE DOC</b>
 - <b>BIGQUERY</b>
 - <b>Tableau</b>
-- <b></b>
+- <b>MICROSOFT VISIO</b>
 
 <h2>Environments Used </h2>
 
