@@ -100,6 +100,20 @@ GROUP BY categoryName
 ORDER BY price_rating_correlation DESC
 
 
+-- 12 Advanced Analysis: Product Ranking Within Categories
+-- Business Purpose: Identify underperforming products relative to peers within the same category to support category-level quality reviews and supplier interventions.
+
+SELECT
+    categoryName, title,
+    stars AS average_rating,
+    reviews AS total_reviews,
+    RANK() OVER (
+        PARTITION BY categoryName
+        ORDER BY stars ASC
+    ) AS rating_rank_within_category
+FROM `fresh-thinker-451616-g2.amazonUK.amazon_data`
+WHERE stars IS NOT NULL
+  AND reviews IS NOT NULL;
 
 
 
