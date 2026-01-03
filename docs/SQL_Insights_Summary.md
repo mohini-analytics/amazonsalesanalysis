@@ -54,4 +54,4 @@ Early identification allows targeted quality or supplier interventions before re
 - Full queries are available in:
   - `sql/findings.sql`
   - `sql/advanced_analysis.sql`
-- Screenshots of queries are [here](docs/images).
+- Screenshots of queries are [here](images).
