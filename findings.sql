@@ -1,3 +1,12 @@
+
+
+-- =====================================================
+-- INSIGHT 1: CATEGORY PERFORMANCE OVERVIEW
+-- Business Question:
+
+-- =====================================================
+
+
 -- Potential Business Questions:
 -- Assumption- Amazon dataset does not provide revenue or units sold. “boughtInLastMonth” is used as a proxy for demand/sales.
 -- 1) How many total products are listed?
@@ -100,8 +109,7 @@ GROUP BY categoryName
 ORDER BY price_rating_correlation DESC
 
 
--- 12 Advanced Analysis: Product Ranking Within Categories
--- Business Purpose: Identify underperforming products relative to peers within the same category to support category-level quality reviews and supplier interventions.
+-- 12) Identify underperforming products relative to peers within the same category to support category-level quality reviews and supplier interventions.
 
 SELECT
     categoryName, title,
@@ -116,10 +124,29 @@ WHERE stars IS NOT NULL
   AND reviews IS NOT NULL;
 
 
+-- 13) Which product categories dominate the dataset and show strong engagement?
 
+SELECT
+  categoryName,
+  COUNT(*) AS total_products,
+  SUM(reviews) AS total_reviews,
+  ROUND(AVG(stars), 2) AS avg_rating
+FROM `fresh-thinker-451616-g2.amazonUK.amazon_data`
+WHERE reviews IS NOT NULL
+GROUP BY categoryName
+ORDER BY total_reviews DESC;
 
+-- 14) Does a higher price correlate with higher customer ratings?
 
-
+SELECT
+  ROUND(price, 0) AS price_bucket,
+  ROUND(AVG(stars), 2) AS avg_rating,
+  COUNT(*) AS product_count
+FROM `project.dataset.amazon_uk_products`
+WHERE price IS NOT NULL
+  AND stars IS NOT NULL
+GROUP BY price_bucket
+ORDER BY price_bucket;
 
 
 
