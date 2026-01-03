@@ -38,16 +38,16 @@ This end-to-end project demonstrates practical capability in big data querying, 
 
 The following artefacts simulate real-world Business Analyst deliverables used to support stakeholder alignment, decision-making, and implementation.
 
-- [**Business Requirements Report (BRD)**](https://docs.google.com/document/d/1Z-PRXiFeds40aWK4v5RHczgYr10q1t2uWhIh-F8AM5g/edit?tab=t.0>) : 
+- [**Business Requirements Report (BRD)**](docs/Business_Requirements.md) : 
   Documents the business context, objectives, scope, assumptions, and high-level requirements that guided the analysis.
 
-- [**Executive Summary & Key Findings** ](https://docs.google.com/document/d/1wcuHJaCsDiwqX9IVvfvMrOuXHGc0d-bdmcc5Gt6G2Jg/edit?usp=sharing) : 
+- [**Executive Summary & Key Findings** ](docs/Executive_Summary.md) : 
   Summarises key insights, risks, and recommendations in a business-facing format suitable for senior stakeholders.
 
-- [**Dashboards & Visual Mockups**](https://docs.google.com/document/d/1U3Y57BU-dQQ7RoVUTQo1iWCJrp_OVAOnjdYzysYVhSw/edit?usp=sharing) : 
+- [**Dashboards & Visual Mockups**](docs/Dashboards_and_Mockups.md) : 
   Interactive Power BI dashboards are designed to answer specific business questions defined through user stories and acceptance criteria.
 
-- [**Recommendations & Next Steps**](https://docs.google.com/document/d/1mJXflolveBgeMDry3-hPVsG8MBanYQejSDPy4Xsy0z8/edit?usp=sharing) : 
+- [**Recommendations & Next Steps**](docs/Recommendations.md) : 
   Actionable recommendations derived from the analysis, outlining potential quality, pricing, and category-level interventions.
 
 
