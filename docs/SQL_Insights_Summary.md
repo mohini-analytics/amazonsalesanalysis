@@ -18,7 +18,7 @@ Category managers can focus optimisation efforts on high-impact categories rathe
 
 [Category Distribution](docs/images/Query1.png)
 
-
+[screenshot1](docs/images/Query1.png)
 
 ---
 
