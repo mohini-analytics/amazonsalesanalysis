@@ -11,12 +11,14 @@ This document summarises the key insights derived from SQL analysis conducted on
 Which product categories dominate the dataset and show strong engagement?
 
 **SQL Insight:**  
-A small number of categories account for a large proportion of listed products and customer reviews, indicating concentration of demand.
+A small number of categories account for a large proportion of listed products and customer reviews, indicating a concentration of demand.
 
 **Why it matters:**  
 Category managers can focus optimisation efforts on high-impact categories rather than spreading effort evenly.
 
 ![Category Distribution](screenshots/category_distribution.png)
+![Category Distribution](../screenshots/sql/category_distribution.png)
+
 
 ---
 
@@ -41,7 +43,7 @@ Pricing strategy should be aligned with perceived value, not assumed premium pos
 Are there categories with weak satisfaction and low engagement?
 
 **SQL Insight:**  
-Using category-level aggregation and benchmarking, a small subset of categories were flagged for monitoring due to lower-than-average ratings and review volumes.
+Using category-level aggregation and benchmarking, a small subset of categories was flagged for monitoring due to lower-than-average ratings and review volumes.
 
 **Why it matters:**  
 Early identification allows targeted quality or supplier interventions before revenue impact escalates.
