@@ -16,7 +16,7 @@ A small number of categories account for a large proportion of listed products a
 **Why it matters:**  
 Category managers can focus optimisation efforts on high-impact categories rather than spreading effort evenly.
 
-![category Performance](images/Query1.png)
+[Category Performance](images/Query1.png)
 
 
 
@@ -31,7 +31,9 @@ Does a higher price correlate with higher customer ratings?
 Analysis shows that higher-priced products do not consistently receive better ratings. Several mid- and low-priced products achieve comparable or higher customer satisfaction.
 
 **Why it matters:**  
-Pricing strategy should be aligned with perceived value, not assumed premium positioning.
+Pricing strategy should be aligned with perceived value, rather than assuming a premium positioning.
+
+[Prise_and_Customer_perception](images/query2.png)
 
 
 ---
@@ -47,6 +49,7 @@ Using category-level aggregation and benchmarking, a small subset of categories 
 **Why it matters:**  
 Early identification allows targeted quality or supplier interventions before revenue impact escalates.
 
+[Category Risk](images/query3.png)
 
 ---
 
