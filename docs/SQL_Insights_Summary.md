@@ -49,7 +49,7 @@ Using category-level aggregation and benchmarking, a small subset of categories 
 **Why it matters:**  
 Early identification allows targeted quality or supplier interventions before revenue impact escalates.
 
-[Category Risk](images/query3.png)
+[Category_Risk](images/query3.png)
 
 ---
 
