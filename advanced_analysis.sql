@@ -1,5 +1,16 @@
 
 
+-- =====================================================
+-- Advanced SQL Analysis
+-- Purpose:
+-- Demonstrate business-driven analytical SQL used to
+-- support category performance, pricing strategy,
+-- and risk identification.
+-- =====================================================
+
+
+
+
 ### Advanced SQL (Business-Driven)
 
 Advanced SQL techniques were used to answer questions that cannot be solved using basic aggregation alone, including:
@@ -9,10 +20,15 @@ Advanced SQL techniques were used to answer questions that cannot be solved usin
 - Structured analysis using CTEs and CASE logic
 
 
---Business Question 1: “Is this dataset reliable enough to support category-level and pricing analysis?”
 
--- Why basic SQL is NOT enough: Simple SELECT * WHERE price IS NULL doesn’t give a holistic view of data health. Hence, Advanced SQL is used.
--- Data Quality Check: Missing critical fields
+-- Business Question 1:
+-- Is the dataset sufficiently complete to support reliable category and pricing analysis?
+
+-- Why Advanced SQL:
+-- Requires conditional aggregation to quantify missing critical fields in a single pass.
+
+-- Output Use:
+-- Validates data reliability before insights are surfaced to stakeholders.
 
 SELECT
   COUNT(*) AS total_products,
@@ -21,16 +37,18 @@ SELECT
   COUNTIF(reviews IS NULL) AS missing_reviews
 FROM `fresh-thinker-451616-g2.amazonUK.amazon_data`;
 
---Why this SQL was used: 
---Aggregates multiple data quality checks in one scan
---Quantifies reliability instead of anecdotal checks
 
 
 
---Business Question 2: Which products are underperforming compared to other products in the same category?
+-- Business Question 2:
+-- Which products are underperforming relative to other products in the same category?
 
---Why basic SQL fails: ORDER BY stars ASC. This gives a global ranking, which is unfair and unusable. Hence, advanced SQL is used.
--- Identify underperforming products within each category
+-- Why Advanced SQL:
+-- Global ranking is misleading; peer-relative comparison requires window functions.
+
+-- Output Use:
+-- Supports category-level quality reviews, supplier evaluation, and delisting decisions.
+
 
 SELECT
   categoryName, title,
@@ -44,17 +62,16 @@ FROM `fresh-thinker-451616-g2.amazonUK.amazon_data`
 WHERE stars IS NOT NULL
   AND reviews IS NOT NULL;
 
--- Why this SQL was used:
--- PARTITION BY categoryName ensures fair peer comparison
--- Window function allows relative performance analysis
--- This query directly supports quality interventions & delisting decisions
 
 
---Business Question 3: Which categories combine low customer satisfaction and weak engagement?
+-- Business Question 3:
+-- Which categories show combined risk based on low customer satisfaction and weak engagement?
 
---Why basic SQL fails: Requires multi-step logic, Requires benchmarking against overall norms, One query would become unreadable without structure, so Advanced SQL is Used.
+-- Why Advanced SQL:
+-- Requires multi-step aggregation and benchmarking that cannot be expressed cleanly in a single query.
 
--- Category-level risk analysis using CTE
+-- Output Use:
+-- Feeds category risk dashboards used by operations and quality teams.
 
 
 WITH category_metrics AS (
@@ -85,18 +102,17 @@ SELECT
 FROM category_metrics c
 CROSS JOIN benchmarks b;
 
--- Why this SQL was used
---CTEs improve readability & auditability
---Separates metrics from benchmarks
---CASE logic translates numbers → business decision labels
 
 
+-- Business Question 4:
+-- How does customer perception vary across different price segments?
 
---Business Question  4: How does customer perception differ across price ranges?
+-- Why Advanced SQL:
+-- Requires business-driven segmentation of continuous price values.
 
---Why basic SQL fails: Raw price values don’t support segment-based comparison. Hence, Advanced SQL Used
+-- Output Use:
+-- Enables price-band analysis in dashboards and pricing strategy discussions.
 
--- Price band segmentation
 SELECT
   categoryName,
   price,
@@ -110,18 +126,17 @@ SELECT
 FROM  `fresh-thinker-451616-g2.amazonUK.amazon_data`
 WHERE price IS NOT NULL;
 
---Why this SQL was used :
---Converts continuous data into business segments
---Enables dashboards & filters
---Aligns directly with pricing strategy discussions
 
 
---Business Question 5: Which products are overpriced relative to similarly rated products?
+-- Business Question 5:
+-- Which products appear overpriced relative to similarly rated peers?
 
--- Why basic SQL fails
---You need: peer benchmarking, rating-based grouping, row-level comparison against group average. Hence, Advanced SQL is Used.
+-- Why Advanced SQL:
+-- Requires peer benchmarking using windowed averages across rating bands.
 
--- Price benchmarking by rating band
+-- Output Use:
+-- Identifies pricing misalignment and supports discount or repositioning decisions.
+
 
 SELECT
   title,
@@ -133,28 +148,6 @@ SELECT
 FROM `project.dataset.amazon_uk_products`
 WHERE price IS NOT NULL
   AND stars IS NOT NULL;
-
---Why this SQL was used: 
---Benchmarks each product against peer expectations
---Identifies pricing anomalies
---Supports pricing optimisation & discount strategies
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
