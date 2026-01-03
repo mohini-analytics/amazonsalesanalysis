@@ -31,9 +31,9 @@ Does a higher price correlate with higher customer ratings?
 Analysis shows that higher-priced products do not consistently receive better ratings. Several mid- and low-priced products achieve comparable or higher customer satisfaction.
 
 **Why it matters:**  
-Pricing strategy should be aligned with perceived value, rather than assuming a premium positioning.
+A pricing strategy should be aligned with the perceived value, rather than assuming a premium positioning.
 
-[Prise_and_Customer_perception](images/query2.png)
+[Prise_and_Customer_perception](images/query 2.png)
 
 
 ---
