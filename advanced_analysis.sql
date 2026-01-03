@@ -150,6 +150,38 @@ WHERE price IS NOT NULL
   AND stars IS NOT NULL;
 
 
+-- Business Question 6:
+-- Are there categories with weak satisfaction and low engagement?
+
+WITH category_metrics AS (
+  SELECT
+    categoryName,
+    ROUND(AVG(stars), 2) AS avg_rating,
+    SUM(reviews) AS total_reviews
+  FROM `fresh-thinker-451616-g2.amazonUK.amazon_data`
+  WHERE stars IS NOT NULL
+    AND reviews IS NOT NULL
+  GROUP BY categoryName
+),
+benchmarks AS (
+  SELECT
+    AVG(avg_rating) AS overall_avg_rating,
+    AVG(total_reviews) AS overall_avg_reviews
+  FROM category_metrics
+)
+SELECT
+  c.categoryName,
+  c.avg_rating,
+  c.total_reviews,
+  CASE
+    WHEN c.avg_rating < b.overall_avg_rating
+     AND c.total_reviews < b.overall_avg_reviews
+    THEN 'Monitor / Potential Risk'
+    ELSE 'Healthy'
+  END AS category_status
+FROM category_metrics c
+CROSS JOIN benchmarks b
+ORDER BY category_status DESC, c.avg_rating;
 
 
 
