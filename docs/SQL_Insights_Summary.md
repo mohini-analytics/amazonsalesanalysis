@@ -15,6 +15,7 @@ A small number of categories account for a large proportion of listed products a
 
 **Why it matters:**  
 Category managers can focus optimisation efforts on high-impact categories rather than spreading effort evenly.
+![Category Distribution](docs/images/Query1.png)
 
 ![Category Distribution](docs/images/Query1.png)
 
