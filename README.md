@@ -7,7 +7,7 @@
 </b>This project focuses on extracting actionable business insights from a large, real-world Amazon UK product dataset using a combination of cloud-based analytics, statistical techniques, and business intelligence tools.
 
 - The dataset (600K+ records) was hosted on Google BigQuery, enabling scalable SQL-based data exploration, cleaning, and transformation. SQL was used extensively to derive key metrics such as product distribution, category trends, pricing patterns, brand performance, and data quality gaps.
-- R was leveraged for deeper statistical analysis and data wrangling using tidyverse and dplyr, with a focus on understanding relationships between price, customer ratings, and review volume.
+- R was used for statistical validation of SQL insights, including correlation analysis and visual exploration of price, ratings, and review volume.
 - Power BI was used to design interactive dashboards with slicers and drill-down capabilities, allowing stakeholders to explore performance trends and compare categories, brands, and price segments.
 - Google Docs was used to document the analytical approach, SQL logic, visual summaries, and final recommendations, ensuring insights were communicated in a clear, business-facing format.
 
