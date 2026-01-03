@@ -1,3 +1,8 @@
+### Statistical Analysis (R)
+
+--R was used to statistically validate insights identified through SQL analysis. Correlation analysis and visual exploration were performed to examine relationships between price, customer ratings, and review volume, confirming that higher prices do not consistently translate to higher customer satisfaction.
+
+
 
 # Amazon UK Sales Analysis – Statistical Validation (R)
 # Purpose:
