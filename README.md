@@ -26,7 +26,6 @@ This end-to-end project demonstrates practical capability in big data querying, 
 
 - <b>ADVANCED EXCEL</b> 
 - <b>POWER BI</b>
-- <b>GOOGLE DOC</b>
 - <b>BIGQUERY</b>
 - <b>MICROSOFT VISIO</b>
 
