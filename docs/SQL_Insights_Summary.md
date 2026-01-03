@@ -33,7 +33,7 @@ Analysis shows that higher-priced products do not consistently receive better ra
 **Why it matters:**  
 A pricing strategy should be aligned with the perceived value, rather than assuming a premium positioning.
 
-[Prise_and_Customer_perception](images/query 2.png)
+[Prise_and_Customer_perception](images/query2.png)
 
 
 ---
