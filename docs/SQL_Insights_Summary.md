@@ -16,8 +16,8 @@ A small number of categories account for a large proportion of listed products a
 **Why it matters:**  
 Category managers can focus optimisation efforts on high-impact categories rather than spreading effort evenly.
 
-![Category Distribution](screenshots/category_distribution.png)
-![Category Distribution](../screenshots/sql/category_distribution.png)
+![Category Distribution](screenshots/sql/category_distribution.png)
+
 
 
 ---
@@ -33,7 +33,7 @@ Analysis shows that higher-priced products do not consistently receive better ra
 **Why it matters:**  
 Pricing strategy should be aligned with perceived value, not assumed premium positioning.
 
-![Price vs Rating](screenshots/price_vs_rating.png)
+![Price vs Rating](screenshots/sql/prise_vs_rating.png)
 
 ---
 
@@ -48,7 +48,7 @@ Using category-level aggregation and benchmarking, a small subset of categories 
 **Why it matters:**  
 Early identification allows targeted quality or supplier interventions before revenue impact escalates.
 
-![Category Risk](screenshots/category_risk.png)
+![Category Risk](screenshots/sql/category_risk.png)
 
 ---
 
