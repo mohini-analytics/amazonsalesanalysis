@@ -20,7 +20,6 @@ This end-to-end project demonstrates practical capability in big data querying, 
 <h2>Languages and Utilities Used</h2>
 
 - <b>SQL</b> 
-- <b>R</b>
 
 <h2> Software Used</h2>
 
