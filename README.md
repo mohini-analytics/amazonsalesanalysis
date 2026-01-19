@@ -42,7 +42,7 @@ The following artefacts simulate real-world Business Analyst deliverables used t
 - [**Executive Summary & Key Findings** ](docs/Executive_Summary.md) : 
   Summarises key insights, risks, and recommendations in a business-facing format suitable for senior stakeholders.
 
-- [**Process Mapping (BPMN): As-Is vs To-Be** ](images/bpmn_as_is_to_be_decision_process.png.png): The BPMN diagram below illustrates how sales performance decisions evolve from a manual, revenue-only process (As-Is) to an analytics-enabled, data-driven approach (To-Be). The To-Be process integrates sales, pricing, and customer rating insights with statistical validation to enable proactive risk identification and targeted commercial actions.
+- [**Process Mapping (BPMN): As-Is vs To-Be** ](images/bpmn_as_is_to_be_decision_process.png.png): The BPMN diagram illustrates how sales performance decisions evolve from a manual, revenue-only process (As-Is) to an analytics-enabled, data-driven approach (To-Be). The To-Be process integrates sales, pricing, and customer rating insights with statistical validation to enable proactive risk identification and targeted commercial actions.
 
 
 - [**Dashboards & Visual Mockups**](docs/Dashboards_and_Mockups.md) : 
