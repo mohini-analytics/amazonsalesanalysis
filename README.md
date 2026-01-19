@@ -35,9 +35,11 @@ This end-to-end project demonstrates practical capability in big data querying, 
 <br />
 
 
+
 <h2>Languages and Utilities Used</h2>
 
 - <b>SQL</b> 
+
 
 <h2> Software Used</h2>
 
@@ -46,12 +48,16 @@ This end-to-end project demonstrates practical capability in big data querying, 
 - <b>BIGQUERY</b>
 - <b>MICROSOFT VISIO</b>
 
+
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
 
 
+<h2> Data Source </h2>
 
+This project uses the publicly available **Amazon UK Products Dataset (2023)** sourced from Kaggle.  
+The dataset was explored and queried using SQL for analysis.
 
 
 
