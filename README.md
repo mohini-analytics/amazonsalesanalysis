@@ -1,5 +1,23 @@
 <h1>Amazon Sales Analysis</h1>
 
+</b>End-to-end Amazon UK analytics project leveraging SQL (BigQuery), statistical validation, and interactive reporting (Power BI) to uncover revenue/rating trends and support commercial prioritisation decisions.</b>
+
+
+<h2>Key Skills Demonstrated </h2>
+
+- SQL: BigQuery querying & KPI computation
+- R: Statistical analysis & hypothesis validation
+- Power BI: Dashboard design & interactive visualisation
+- Business Analysis: Use cases, stakeholder mapping, recommendations
+- Data storytelling: Translating metrics to actions
+
+
+<h2>Process Mapping (BPMN)</h2>
+
+This diagram shows how the analysis transforms decision-making from a manual, reactive state to an analytics-enabled, proactive state.
+
+![BPMN Diagram](images/bpmn_as_is_to_be_decision_process.png.png)
+
 
 
 <h2>OVERVIEW</h2>
@@ -30,7 +48,12 @@ This end-to-end project demonstrates practical capability in big data querying, 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> 
+- <b>Windows 10</b>
+
+
+
+
+
 
 ## Project Artefacts & Documentation
 
@@ -43,7 +66,6 @@ The following artefacts simulate real-world Business Analyst deliverables used t
   Summarises key insights, risks, and recommendations in a business-facing format suitable for senior stakeholders.
 
 - [**Process Mapping (BPMN): As-Is vs To-Be** ](images/bpmn_as_is_to_be_decision_process.png.png): The BPMN diagram illustrates how sales performance decisions evolve from a manual, revenue-only process (As-Is) to an analytics-enabled, data-driven approach (To-Be). The To-Be process integrates sales, pricing, and customer rating insights with statistical validation to enable proactive risk identification and targeted commercial actions.
-
 
 - [**Dashboards & Visual Mockups**](docs/Dashboards_and_Mockups.md) : 
   Interactive Power BI dashboards are designed to answer specific business questions defined through user stories and acceptance criteria.
